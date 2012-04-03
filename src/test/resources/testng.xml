@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="suite">
+    <test name="tomek">
+        <packages>
+            <package name="pl.tomaszdziurko.*" />
+        </packages>
+    </test>
+    <!--<listeners>-->
+        <!--&lt;!&ndash;<listener class-name="pl.softwaremill.common.test.util.reorder.TestNGReorderingListener"/>&ndash;&gt;-->
+        <!--<listener class-name="pl.tomaszdziurko.listeners.TestNGReorderingListener"/>-->
+    <!--</listeners>-->
+</suite>
